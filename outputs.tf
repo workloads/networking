@@ -1,11 +1,11 @@
 output "aws_iam_account_alias" {
-  description = "current AWS IAM Account Alias."
-  value       = data.aws_iam_account_alias.current.id
+  description = "Exported Attributes for `aws_iam_account_alias.current` data source."
+  value       = data.aws_iam_account_alias.current
 }
 
 output "aws_vpc_id" {
-  description = "current AWS Default VPC Identifier."
-  value       = data.aws_vpc.default.id
+  description = "Exported Attributes for `aws_vpc.current` data source."
+  value       = data.aws_vpc.default
 }
 
 output "hvn_urls" {

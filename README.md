@@ -1,6 +1,6 @@
 # Terraform Cloud Workspace: `networking`
 
-This directory manages the lifecycle of (global) DNS and Networking Components.
+This directory manages the lifecycle of networking components.
 
 <!-- BEGIN_TF_DOCS -->
 ### Inputs
@@ -17,8 +17,8 @@ This directory manages the lifecycle of (global) DNS and Networking Components.
 
 | Name | Description |
 |------|-------------|
-| aws_iam_account_alias | current AWS IAM Account Alias. |
-| aws_vpc_id | current AWS Default VPC Identifier. |
+| aws_iam_account_alias | Exported Attributes for `aws_iam_account_alias.current` data source. |
+| aws_vpc_id | Exported Attributes for `aws_vpc.current` data source. |
 | hvn_urls | HCP HVN URLs. |
 <!-- END_TF_DOCS -->
 
