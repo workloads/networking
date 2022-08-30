@@ -1,6 +1,6 @@
 # Terraform Cloud Workspace: `networking`
 
-This directory manages the lifecycle of networking components.
+> This directory manages the lifecycle of the networking configuration for [@workloads](https://github.com/workloads).
 
 <!-- BEGIN_TF_DOCS -->
 ### Inputs
