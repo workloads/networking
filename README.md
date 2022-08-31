@@ -2,6 +2,15 @@
 
 > This directory manages the lifecycle of the networking configuration for [@workloads](https://github.com/workloads).
 
+## Table of Contents
+
+<!-- TOC -->
+* [Terraform Cloud Workspace: `networking`](#terraform-cloud-workspace--networking)
+  * [Table of Contents](#table-of-contents)
+    * [Inputs](#inputs)
+    * [Outputs](#outputs)
+<!-- TOC -->
+
 <!-- BEGIN_TF_DOCS -->
 ### Inputs
 
