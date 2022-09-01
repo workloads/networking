@@ -18,10 +18,10 @@ terraform {
       version = "4.28.0"
     }
 
-    # see https://registry.terraform.io/providers/hashicorp/hcp/0.42.0/
+    # see https://registry.terraform.io/providers/hashicorp/hcp/0.43.0/
     hcp = {
       source  = "hashicorp/hcp"
-      version = ">= 0.42.0, < 1.0.0"
+      version = ">= 0.43.0, < 1.0.0"
     }
 
     # see https://registry.terraform.io/providers/hashicorp/tfe/0.36.1/
