@@ -18,7 +18,7 @@
 |------|-------------|------|:--------:|
 | management_region_aws | AWS-specific `Management` Region Identifier. | `string` | yes |
 | project_identifier | Human-readable Project Identifier. | `string` | yes |
-| tfe_organization | The ID of the HVN this HCP Vault cluster is associated to. | `string` | yes |
+| tfe_organization | Name of the Terraform Cloud Organization. | `string` | yes |
 | hvn_cidr_block_aws | The CIDR range of the HVN. | `string` | no |
 | hvn_id_aws | AWS-specific HashiCorp HVN Identifier. | `string` | no |
 

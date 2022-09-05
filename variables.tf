@@ -24,5 +24,5 @@ variable "project_identifier" {
 
 variable "tfe_organization" {
   type        = string
-  description = "The ID of the HVN this HCP Vault cluster is associated to."
+  description = "Name of the Terraform Cloud Organization."
 }
