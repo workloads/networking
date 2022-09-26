@@ -6,7 +6,7 @@ data "aws_vpc" "default" {
 }
 
 # see https://registry.terraform.io/providers/hashicorp/tfe/latest/docs/data-sources/variable_set
-data "tfe_variable_set" "project" {
-  name         = "Project"
+data "tfe_variable_set" "hvn_ids" {
+  name         = "HashiCorp Cloud Platform Network IDs"
   organization = var.tfe_organization
 }
