@@ -4,11 +4,6 @@ variable "hvn_cidr_block_aws" {
   default     = "172.25.16.0/20"
 }
 
-#variable "hvn_id_aws" {
-#  type        = string
-#  description = "AWS-specific HashiCorp HVN Identifier."
-#}
-
 variable "management_region_aws" {
   type        = string
   description = "AWS-specific `Management` Region Identifier."
