@@ -1,8 +1,3 @@
-output "aws_iam_account_alias" {
-  description = "Exported Attributes for `aws_iam_account_alias.current` data source."
-  value       = data.aws_iam_account_alias.current
-}
-
 output "aws_vpc_id" {
   description = "Exported Attributes for `aws_vpc.current` data source."
   value       = data.aws_vpc.default

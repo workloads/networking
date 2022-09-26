@@ -1,9 +1,3 @@
-# see https://registry.terraform.io/providers/hashicorp/tfe/latest/docs/data-sources/variable_set
-data "tfe_variable_set" "project" {
-  name         = "project"
-  organization = var.tfe_organization
-}
-
 # see https://registry.terraform.io/providers/hashicorp/tfe/latest/docs/resources/variable
 resource "tfe_variable" "hvn_id_aws" {
   key             = "hvn_id_aws"
