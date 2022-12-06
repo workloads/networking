@@ -12,22 +12,22 @@ terraform {
 
   # see https://developer.hashicorp.com/terraform/language/settings#specifying-provider-requirements
   required_providers {
-    # see https://registry.terraform.io/providers/hashicorp/aws/4.34.0/
+    # see https://registry.terraform.io/providers/hashicorp/aws/4.45.0/
     aws = {
       source  = "hashicorp/aws"
-      version = ">= 4.34.0, < 5.0.0"
+      version = ">= 4.45.0, < 5.0.0"
     }
 
-    # see https://registry.terraform.io/providers/hashicorp/hcp/0.45.0/
+    # see https://registry.terraform.io/providers/hashicorp/hcp/0.50.0/
     hcp = {
       source  = "hashicorp/hcp"
-      version = ">= 0.45.0, < 1.0.0"
+      version = ">= 0.50.0, < 1.0.0"
     }
 
-    # see https://registry.terraform.io/providers/hashicorp/tfe/0.37.0/
+    # see https://registry.terraform.io/providers/hashicorp/tfe/0.39.0/
     tfe = {
       source  = "hashicorp/tfe"
-      version = ">= 0.37.0, < 1.0.0"
+      version = ">= 0.39.0, < 1.0.0"
     }
   }
 
