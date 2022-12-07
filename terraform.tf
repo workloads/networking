@@ -24,10 +24,10 @@ terraform {
       version = ">= 0.50.0, < 1.0.0"
     }
 
-    # see https://registry.terraform.io/providers/hashicorp/tfe/0.39.0/
+    # see https://registry.terraform.io/providers/hashicorp/tfe/0.40.0/
     tfe = {
       source  = "hashicorp/tfe"
-      version = ">= 0.39.0, < 1.0.0"
+      version = ">= 0.40.0, < 1.0.0"
     }
   }
 
