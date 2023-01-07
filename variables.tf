@@ -1,6 +1,6 @@
 variable "hvn_cidr_block_aws" {
   type        = string
-  description = "The CIDR range of the HVN."
+  description = "CIDR range of the HVN."
   default     = "172.25.16.0/20"
 }
 
