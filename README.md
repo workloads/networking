@@ -1,15 +1,22 @@
-# Terraform Cloud Workspace: `networking`
+# Terraform Cloud Workspace `networking`
 
 > This directory manages the lifecycle of the networking configuration for [@workloads](https://github.com/workloads).
 
 ## Table of Contents
 
 <!-- TOC -->
-* [Terraform Cloud Workspace: `networking`](#terraform-cloud-workspace--networking)
+* [Terraform Cloud Workspace `networking`](#terraform-cloud-workspace-networking)
   * [Table of Contents](#table-of-contents)
+  * [Usage](#usage)
     * [Inputs](#inputs)
     * [Outputs](#outputs)
 <!-- TOC -->
+
+## Usage
+
+This repository uses a standard Terraform workflow (`init`, `plan`, `apply`).
+
+For more information, including detailed usage guidelines, see the [Terraform documentation](https://developer.hashicorp.com/terraform/cli/commands).
 
 <!-- BEGIN_TF_DOCS -->
 ### Inputs
