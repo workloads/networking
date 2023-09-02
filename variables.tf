@@ -16,5 +16,5 @@ variable "project_identifier" {
 
 variable "tfe_organization" {
   type        = string
-  description = "Name of the Terraform Cloud Organization."
+  description = "Name of Terraform Cloud Organization."
 }
