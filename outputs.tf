@@ -1,4 +1,4 @@
-output "aws_vpc_id" {
+output "aws_vpc" {
   description = "Exported Attributes for `aws_vpc.current` data source."
   value       = data.aws_vpc.default
 }

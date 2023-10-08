@@ -32,7 +32,7 @@ For more information, including detailed usage guidelines, see the [Terraform do
 
 | Name | Description |
 |------|-------------|
-| aws_vpc_id | Exported Attributes for `aws_vpc.current` data source. |
+| aws_vpc | Exported Attributes for `aws_vpc.current` data source. |
 | hvn_urls | HCP HVN URLs. |
 <!-- END_TF_DOCS -->
 
