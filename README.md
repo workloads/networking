@@ -1,6 +1,6 @@
 # Terraform Cloud Workspace `networking`
 
-> This directory manages the lifecycle of the networking configuration for [@workloads](https://github.com/workloads).
+> This repository manages networking configuration for [@workloads](https://github.com/workloads).
 
 ## Table of Contents
 
@@ -11,6 +11,16 @@
     * [Inputs](#inputs)
     * [Outputs](#outputs)
 <!-- TOC -->
+
+## Requirements
+
+- HashiCorp Terraform `1.6.x` or [newer](https://developer.hashicorp.com/terraform/downloads)
+
+### Development
+
+For development and testing of this repository:
+
+- `terraform-docs` `0.17.0` or [newer](https://terraform-docs.io/user-guide/installation/)
 
 ## Usage
 
