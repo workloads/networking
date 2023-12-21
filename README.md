@@ -7,6 +7,8 @@
 <!-- TOC -->
 * [Terraform Cloud Workspace `networking`](#terraform-cloud-workspace-networking)
   * [Table of Contents](#table-of-contents)
+  * [Requirements](#requirements)
+    * [Development](#development)
   * [Usage](#usage)
     * [Inputs](#inputs)
     * [Outputs](#outputs)
@@ -46,3 +48,14 @@ For more information, including detailed usage guidelines, see the [Terraform do
 | hvn_urls | HCP HVN URLs. |
 <!-- END_TF_DOCS -->
 
+## Contributors
+
+For a list of current (and past) contributors to this repository, see [GitHub](https://github.com/workloads/networking/graphs/contributors).
+
+## License
+
+Licensed under the Apache License, Version 2.0 (the "License").
+
+You may download a copy of the License at [apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+See the License for the specific language governing permissions and limitations under the License.
