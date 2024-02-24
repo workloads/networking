@@ -12,6 +12,8 @@
   * [Usage](#usage)
     * [Inputs](#inputs)
     * [Outputs](#outputs)
+  * [Contributors](#contributors)
+  * [License](#license)
 <!-- TOC -->
 
 ## Requirements
