@@ -1,4 +1,4 @@
-# Terraform Cloud Workspace `networking`
+# HCP Terraform Workspace `networking`
 
 > This repository manages networking configuration for [@workloads](https://github.com/workloads).
 
@@ -39,7 +39,7 @@ For more information, including detailed usage guidelines, see the [Terraform do
 |------|-------------|------|:--------:|
 | management_region_aws | AWS-specific `Management` Region Identifier. | `string` | yes |
 | project_identifier | Human-readable Project Identifier. | `string` | yes |
-| tfe_organization | Name of Terraform Cloud Organization. | `string` | yes |
+| tfe_organization | Name of HCP Terraform Organization. | `string` | yes |
 | hvn_cidr_block_aws | CIDR range of the HVN. | `string` | no |
 
 ### Outputs
