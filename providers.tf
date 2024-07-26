@@ -7,7 +7,7 @@ provider "aws" {
   default_tags {
     tags = {
       "github:url"                   = "https://github.com/workloads/networking"
-      "terraform-cloud:organization" = var.tfe_organization
+      "hcp-terraform:organization" = var.tfe_organization
     }
   }
 }
