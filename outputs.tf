@@ -12,3 +12,8 @@ output "hvn_urls" {
     module.hvn_aws.portal_hvn_route_table_url,
   ]
 }
+
+output "tfe_workspace_terraform_version" {
+  description = "Terraform version identifier of current HCP Terraform Workspace."
+  value       = data.tfe_workspace.main.terraform_version
+}

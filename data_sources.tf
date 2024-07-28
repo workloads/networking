@@ -10,3 +10,9 @@ data "tfe_variable_set" "hvn_ids" {
   name         = "HashiCorp Cloud Platform Network IDs"
   organization = var.tfe_organization
 }
+
+# see https://registry.terraform.io/providers/hashicorp/tfe/latest/docs/data-sources/workspace
+data "tfe_workspace" "main" {
+  name         = "networking"
+  organization = var.tfe_organization
+}
