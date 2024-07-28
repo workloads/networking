@@ -48,6 +48,7 @@ For more information, including detailed usage guidelines, see the [Terraform do
 |------|-------------|
 | aws_vpc | Exported Attributes for `aws_vpc.current` data source. |
 | hvn_urls | HCP HVN URLs. |
+| tfe_workspace_terraform_version | Terraform version identifier of current HCP Terraform Workspace. |
 <!-- END_TF_DOCS -->
 
 ## Contributors

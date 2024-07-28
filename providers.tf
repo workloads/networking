@@ -6,7 +6,7 @@ provider "aws" {
   # see https://registry.terraform.io/providers/hashicorp/aws/latest/docs#default_tags
   default_tags {
     tags = {
-      "github:url"                   = "https://github.com/workloads/networking"
+      "github:url"                 = "https://github.com/workloads/networking"
       "hcp-terraform:organization" = var.tfe_organization
     }
   }
