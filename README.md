@@ -5,7 +5,7 @@
 ## Table of Contents
 
 <!-- TOC -->
-* [Terraform Cloud Workspace `networking`](#terraform-cloud-workspace-networking)
+* [HCP Terraform Workspace `networking`](#hcp-terraform-workspace-networking)
   * [Table of Contents](#table-of-contents)
   * [Requirements](#requirements)
     * [Development](#development)
