@@ -15,7 +15,7 @@ terraform {
     # see https://registry.terraform.io/providers/hashicorp/aws/5.60.0/
     aws = {
       source  = "hashicorp/aws"
-      version = ">= 5.60.0, < 6.0.0"
+      version = ">= 5.60.0, < 6.5.1"
     }
 
     # see https://registry.terraform.io/providers/hashicorp/hcp/0.94.0/
